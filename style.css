@@ -163,11 +163,21 @@
     left: 0;
   }
   .content{
-    background-image: linear-gradient(to right, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url('https://img.freepik.com/free-photo/portrait-gorgeous-african-american-woman-20s-summer-hat-posing-green-grass-park_627829-4219.jpg?w=740&t=st=1707835769~exp=1707836369~hmac=846cc5da157df117085be7f3cd688bf6522e7745dba61aa54b32cbfb450e9047');
+    background-image: url('https://img.freepik.com/free-photo/portrait-gorgeous-african-american-woman-20s-summer-hat-posing-green-grass-park_627829-4219.jpg?w=740&t=st=1707835769~exp=1707836369~hmac=846cc5da157df117085be7f3cd688bf6522e7745dba61aa54b32cbfb450e9047');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
     padding: 8% 5%;
+    position: relative;
+  }
+  .content::before{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    backdrop-filter: blur(15px);
+    position: absolute;
+    content: '';
   }
   #mvv, #do, #story{
     padding-top: 10%;
