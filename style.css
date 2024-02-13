@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#second{
+    padding-top: 10%;
+}
+#hero h1{
+    font-size: 45px;
+}
+.meme{
+    background-image: url('./images/portrait-young-man-outdoor_23-2148883619-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 500px;
+}
+.meme-1{
+    background-image: url('./images/stylish-african-american-black-man_93675-43199.avif');
+    height: 500px;
+    background-size: cover;
+    
+}
+.meme-2{
+    background-image: url('./images/stylish-afro-american-man-pointing-with-two-fingers-you-looking_171337-1291.jpg');
+    height: 500px;
+    background-size: cover;   
+    padding-top: 40%;
+}
+#about{
+    padding-top: 8%;
+}
+#featured, #blogs, #footer{
+    padding-top: 8%;
+}
+.collection{
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+}
+#footer ul li{
+    list-style: none;
+}
+.input-container {
+    position: relative;
+  }
+  
+  .input {
+    padding: 10px;
+    height: 40px;
+    border: 2px solid #0B2447;
+    border-top: none;
+    border-bottom: none;
+    font-size: 16px;
+    background: transparent;
+    outline: none;
+    box-shadow: 7px 7px 0px 0px #0B2447;
+    transition: all 0.5s;
+  }
+  
+  .input:focus {
+    box-shadow: none;
+    transition: all 0.5s;
+  }
+  
+  .label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #0B2447;
+    transition: all 0.5s;
+    transform: scale(0);
+    z-index: -1;
+  }
+  
+  .input-container .topline {
+    position: absolute;
+    content: "";
+    background-color: #0B2447;
+    width: 0%;
+    height: 2px;
+    right: 0;
+    top: 0;
+    transition: all 0.5s;
+  }
+  
+  .input-container input[type="text"]:focus ~ .topline {
+    width: 35%;
+    transition: all 0.5s;
+  }
+  
+  .input-container .underline {
+    position: absolute;
+    content: "";
+    background-color: #0B2447;
+    width: 0%;
+    height: 2px;
+    right: 0;
+    bottom: 0;
+    transition: all 0.5s;
+  }
+  .box{
+    width: 100%;
+    height: 100%;
+  }
+  .vector{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .vector img{
+    width: 300px;
+  }
+  .input-container input[type="text"]:focus ~ .underline {
+    width: 100%;
+    transition: all 0.5s;
+  }
+  
+  .input-container input[type="text"]:focus ~ .label {
+    top: -10px;
+    transform: scale(1);
+    transition: all 0.5s;
+  }
+  #contact{
+    padding-top: 8%;
+  }
+  input{
+    height: 50px;
+    outline: none;
+    padding-left: 10px;
+    border: 2px solid #000;
+  }
+  #contact textarea{
+    resize: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    border: 2px solid #000;
+  }
+  #footer a{
+    text-decoration: none;
+  }
+  .mainbg{
+    background-image: url('https://img.freepik.com/free-photo/african-american-young-woman-s-half-length-portrait-blue-studio_155003-18886.jpg?w=740&t=st=1707830904~exp=1707831504~hmac=37bb598306405bf49cb087e4a99cfd3fb810262ddcf6ee74b3df090ca4b6355c');
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .link{
+    color: #fff;
+    text-decoration: none;
+  }
+  .mainbg::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    top: 0;
+    content: '';
+    left: 0;
+  }
+  .content{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url('https://img.freepik.com/free-photo/portrait-gorgeous-african-american-woman-20s-summer-hat-posing-green-grass-park_627829-4219.jpg?w=740&t=st=1707835769~exp=1707836369~hmac=846cc5da157df117085be7f3cd688bf6522e7745dba61aa54b32cbfb450e9047');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 8% 5%;
+  }
+  #mvv, #do, #story{
+    padding-top: 10%;
+  }
